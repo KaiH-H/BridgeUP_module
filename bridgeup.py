@@ -119,9 +119,9 @@ def season_num(season):
 
 	for i in df["Fav season"]:
 		if i == season:
- 			number += 1
- 			
- 	return number
+			number += 1
+
+	return number
 
 #this function will take a students name and print out the students grade
 def grade(brownscholar):
