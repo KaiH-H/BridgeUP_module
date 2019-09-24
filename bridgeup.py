@@ -7,8 +7,7 @@ import pandas as pd
 
 df = pd.read_csv("internship_bootcamp_data.csv")
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Creates function to get Cohort from Name
 def student_cohort(name):
 
@@ -17,8 +16,7 @@ def student_cohort(name):
 	cohort = df["Cohort"].loc[first_name == name] # USE BRACKETS W/ .LOC[]
 
 	return cohort
-=======
-=======
+
 
 #tells you how many people have the same fav animal as you
 def animal_num(animal):
@@ -30,15 +28,9 @@ def animal_num(animal):
 	return c
 
 
->>>>>>> upstream/master
 #Takes the name of student and returns their favorite ice cream flavor
 
 def student_flavor(Name):
 	Flavor = df["Fav ice cream flavor"].loc[df["First Name"] == Name]
 
 	return Flavor
-<<<<<<< HEAD
->>>>>>> upstream/master
-=======
-
->>>>>>> upstream/master
