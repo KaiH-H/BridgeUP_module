@@ -101,3 +101,15 @@ def student_grade(brown_scholar):
     return gr
 
 
+#returns # of students that like a specific season
+
+def season_num(season):
+
+	number = 0
+
+	for i in df["Fav season"]:
+		if i == season:
+ 			number += 1
+ 			
+ 	return number
+
