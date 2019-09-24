@@ -122,5 +122,7 @@ def season_num(season):
 
 #this function will take a students name and print out the students grade
 def grade(brownscholar):
+
     gr = df["Grade"].loc[df["First Name"]==brownscholar]
+    
     return gr
