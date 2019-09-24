@@ -10,7 +10,7 @@ def student_cohort(name):
 	cohort = df["Cohort"].loc[first_name == name] # USE BRACKETS W/ .LOC[]
 
 	return cohort
-=======
+
 #goes through the favorite color list and counts how many like a specific color
 def color_num(color):
 	stud_color = df["Fav color"]
@@ -32,7 +32,6 @@ def animal_num(animal):
 
 
 #Takes the name of student and returns their favorite ice cream flavor
-
 def student_flavor(Name):
 	Flavor = df["Fav ice cream flavor"].loc[df["First Name"] == Name]
 
