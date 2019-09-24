@@ -92,15 +92,18 @@ def student_season(name):
 
 	return season
 
-<<<<<<< HEAD
-=======
+
 #take a student name and return their favorite animal
 def student_animal(name):
+
 	student = df["First Name"]
+
 	animal = df["Fav animal"]
+
 	fav_animal = animal.loc[student == name]
+	
 	return fav_animal
->>>>>>> upstream/master
+
 
 #this function returns the grade of a brown scholar when a name is inputted
 def student_grade(brown_scholar):
@@ -124,5 +127,5 @@ def season_num(season):
 def grade(brownscholar):
 
     gr = df["Grade"].loc[df["First Name"]==brownscholar]
-    
+
     return gr
